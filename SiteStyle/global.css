@@ -1,0 +1,158 @@
+/* Estilos de la página My Favorite Movies */
+
+body {
+    margin: 0;
+    background-color: #dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+
+#contenedor {
+    width: 90%;
+    max-width: 950px;
+    margin: 20px auto;
+    background-color: white;
+    border: 2px solid #7a1f1f;
+}
+
+/* Logo */
+header {
+    background-color: #7a1f1f;
+    text-align: center;
+    padding: 10px;
+}
+
+#logo img {
+    width: 90%;
+    max-width: 700px;
+    height: auto;
+}
+
+/* Navegación */
+nav {
+    background-color: #333333;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+    text-align: center;
+    background-color: #eeeeee;
+    padding-bottom: 10px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner h1 {
+    color: #7a1f1f;
+}
+
+/* Contenido principal */
+.contenido {
+    display: flex;
+    padding: 20px;
+}
+
+main {
+    width: 68%;
+    padding-right: 20px;
+}
+
+aside {
+    width: 32%;
+    background-color: #f4eaea;
+    border: 1px solid #7a1f1f;
+    padding: 15px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #7a1f1f;
+    border-bottom: 1px solid #7a1f1f;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Imágenes flotantes */
+.izquierda {
+    float: left;
+    width: 42%;
+    margin: 0 15px 10px 0;
+}
+
+.derecha {
+    float: right;
+    width: 42%;
+    margin: 0 0 10px 15px;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #333333;
+}
+
+figcaption {
+    font-size: 13px;
+    text-align: center;
+    font-style: italic;
+}
+
+.limpiar {
+    clear: both;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #333333;
+    padding: 8px;
+}
+
+th {
+    background-color: #7a1f1f;
+    color: white;
+}
+
+/* Enlaces */
+aside a {
+    color: #7a1f1f;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    text-align: center;
+    margin: 5px;
+}
